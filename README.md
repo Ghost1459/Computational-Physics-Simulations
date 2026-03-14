@@ -1,4 +1,4 @@
-# Computational Physics & Complex Systems Simulations
+# Computational Physics Simulations
 
 A curated collection of numerical methods, deterministic simulations, and stochastic models developed during my coursework. 
 
@@ -39,26 +39,26 @@ The following animations illustrate emergent behavior and physical transitions a
 ## 🔬 Core Modules & Simulations
 
 ### 1. Complex Systems & Emergent Behavior
-* **Agent-Based Modeling (`13_wator_predator_prey_model.ipynb`):** Utilized Object-Oriented Programming (OOP) to define interacting classes (Ocean, Animals) and simulate Lotka-Volterra population cycles on a toroidal grid.
-* **Self-Organized Criticality (`12_bak_tang_wiesenfeld_sandpile.ipynb`):** Implemented the BTW sandpile model to study avalanche distributions, extracting power-law statistics via logarithmic binning and curve fitting.
-* **Partial Differential Equations (`11_gray_scott_reaction_diffusion.ipynb`):** Solved coupled PDEs using numerical integration and Laplacian operators (via optimized array rolling) to simulate Turing pattern formation.
-* **Diffusion-Limited Aggregation (`10_dla_growth_simulation.ipynb`):** Modeled fractal growth patterns driven by random walkers adhering to a central seed structure.
+* **Agent-Based Modeling ([13_wator_predator_prey_model.ipynb](./src/13_wator_predator_prey_model.ipynb)):** OOP implementation of the Wa-Tor world, simulating shark/fish population oscillations.
+* **Self-Organized Criticality ([12_bak_tang_wiesenfeld_sandpile.ipynb](./src/12_bak_tang_wiesenfeld_sandpile.ipynb)):** BTW sandpile model used to analyze power-law distributions of avalanches.
+* **Diffusion-Limited Aggregation ([10_dla_growth_simulation.ipynb](./src/10_dla_growth_simulation.ipynb)):** Fractal growth simulation driven by brownian motion and adherence probabilities.
+* **Reaction-Diffusion ([11_gray_scott_reaction_diffusion.ipynb](./src/11_gray_scott_reaction_diffusion.ipynb)):** Solving coupled PDEs to observe Turing pattern formation.
 
 ### 2. Molecular Dynamics & Thermodynamics
-* **Lennard-Jones Gas (`05_lennard_jones_molecular_dynamics.ipynb`):** Simulated interacting particles in a 2D box, implementing periodic boundary conditions and force-calculation algorithms.
-* **Isokinetic Thermostat (`06_isokinetic_thermostat_md.ipynb`):** Engineered a thermostat algorithm to regulate kinetic energy, validating the conservation of total system energy over time.
+* **Lennard-Jones Gas ([05_lennard_jones_molecular_dynamics.ipynb](./src/05_lennard_jones_molecular_dynamics.ipynb)):** Modeling particle interactions and force calculations with periodic boundaries.
+* **Isokinetic Thermostat ([06_isokinetic_thermostat.ipynb](./src/06_isokinetic_thermostat.ipynb)):** Velocity rescaling and energy conservation in NVT-like ensembles.
 
 ### 3. Stochastic Models & Monte Carlo Methods
-* **Ising Model (`08_ising_model_metropolis.ipynb`):** Modeled magnetic dipole alignment via Metropolis kinetics, utilizing `Numba` JIT compilation to heavily optimize nested coordinate loops and probability evaluations.
-* **Domain Growth Kinetics (`09_domain_growth_kinetics.ipynb`):** Compared domain growth speeds using Metropolis vs. Kawabata algorithms, plotting power-law scaling across time steps.
+* **Ising Model ([08_ising_model_metropolis.ipynb](./src/08_ising_model_metropolis.ipynb)):** High-performance simulation of magnetic phase transitions using Numba-optimized Metropolis steps.
+* **Domain Growth Kinetics ([09_domain_growth_kinetics.ipynb](./src/09_domain_growth_kinetics.ipynb)):** Comparative study of Metropolis vs. Kawabata dynamics and their respective scaling laws.
 
 ### 4. Chaos Theory & Orbital Mechanics
-* **Duffing Oscillator (`02_duffing_oscillator_chaos.ipynb`, `02_interactive_duffing_ui.py`):** Solved non-linear differential equations using `scipy.integrate.solve_ivp` to map phase-space trajectories and chaotic attractors. Built an interactive UI with `matplotlib.widgets`.
-* **N-Body Problem (`04_nbody_orbital_mechanics.ipynb`):** Solved the equations of motion for planetary bodies, recreating the famous stable Chenciner "figure-eight" orbit.
+* **Duffing Oscillator ([02_chaos_duffing.ipynb](./src/02_chaos_duffing.ipynb)):** Analysis of non-linear differential equations and mapping chaotic attractors. Includes an interactive UI script ([02_chaos_duffing.py](./src/02_chaos_duffing.py)) built with `matplotlib.widgets`.
+* **N-Body Problem ([04_nbody_orbital_mechanics.ipynb](./src/04_nbody_orbital_mechanics.ipynb)):** High-precision numerical integration of gravitational systems, focusing on the stable Chenciner "figure-eight" orbit.
 
 ### 5. Fractals & Network Theory
-* **Fractal Dimensions (`03_fractal_dimension_analysis.ipynb`):** Generated Sierpinski triangles and Barnsley ferns; calculated fractal dimensions using the box-counting method and `scipy.optimize.curve_fit`.
-* **Percolation Phase Transitions (`07_percolation_phase_transitions.ipynb`):** Analyzed random networks via lattice clustering algorithms (Breadth-First Search queue logic) to identify critical percolation thresholds.
+* **Fractal Dimensions ([03_fractals.ipynb](./src/03_fractals.ipynb)):** Automated calculation of fractal dimensions for Sierpinski and Barnsley structures using box-counting algorithms and `scipy.optimize`.
+* **Percolation Phase Transitions ([07_percolation_phase_transitions.ipynb](./src/07_percolation_phase_transitions.ipynb)):** Identification of critical thresholds in random networks using Breadth-First Search (BFS) clustering logic.
 
 ---
 
