@@ -1,6 +1,9 @@
 # Computational Physics Simulations
+![Social Preview](./social_preview.png)
 
-A curated collection of numerical methods, deterministic simulations, and stochastic models developed during my coursework. 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ghost1459/Computational-Physics-Simulations/)
+
+A curated collection of numerical methods, deterministic simulations, and stochastic models developed during my coursework.
 
 ### 🛠️ Tech Stack & Tools
 * **Language:** Python
@@ -29,10 +32,10 @@ The following animations illustrate emergent behavior and physical transitions a
 | <img src="./results/gifs/06_thermostat_liquid.gif" width="400"/> | <img src="./results/gifs/06_thermostat_solid.gif" width="400"/> |
 | *Isokinetic thermostat (Fluid).* | *Lattice stability under temperature control.* |
 
-| Fractal Growth (DLA) | N-Body Orbital Mechanics |
+| Fractal Growth (DLA) | Chaos Theory: Duffing UI |
 | :---: | :---: |
-| <img src="./results/gifs/10_aggregation_growth_p=05_M=10.gif" width="400"/> | <img src="./results/gifs/04_chenciner_figure.gif" width="400"/> |
-| *Diffusion-Limited Aggregation.* | *Stable Chenciner 3-body orbit.* |
+| <img src="./results/gifs/10_aggregation_growth_p=05_M=10.gif" width="400"/> | <img src="./results/gifs/02_chaos_duffing_demo.gif" width="400"/> |
+| *Diffusion-Limited Aggregation.* | *Interactive chaotic attractor mapping.* |
 
 ---
 
